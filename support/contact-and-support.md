@@ -16,7 +16,7 @@ Check our [FAQs](../faqs/switching-presets.md) — most common questions are ans
 
 We typically respond within **1–2 business days**.
 
-**Submit a support request:** [Open Support Form](https://tally.so/r/ATELIER_FORM)
+**Submit a support request:** [Open Support Form](https://tally.so/r/vG2kP8)
 
 When submitting a request, please include:
 
