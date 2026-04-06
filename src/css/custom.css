@@ -1,0 +1,37 @@
+:root {
+  --ifm-color-primary: #1a1a1a;
+  --ifm-color-primary-dark: #111111;
+  --ifm-color-primary-darker: #0a0a0a;
+  --ifm-color-primary-darkest: #000000;
+  --ifm-color-primary-light: #333333;
+  --ifm-color-primary-lighter: #444444;
+  --ifm-color-primary-lightest: #555555;
+  --ifm-link-color: #8b7355;
+  --ifm-link-hover-color: #6d5a43;
+  --ifm-font-family-base: 'DM Sans', system-ui, -apple-system, sans-serif;
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+}
+
+[data-theme='dark'] {
+  --ifm-color-primary: #f5f0eb;
+  --ifm-color-primary-dark: #e0d5c8;
+  --ifm-color-primary-darker: #d5c7b7;
+  --ifm-color-primary-darkest: #bba890;
+  --ifm-color-primary-light: #faf8f5;
+  --ifm-color-primary-lighter: #ffffff;
+  --ifm-color-primary-lightest: #ffffff;
+  --ifm-link-color: #c4a882;
+  --ifm-link-hover-color: #d4bc9e;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}
+
+.navbar__title {
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+.footer--dark {
+  --ifm-footer-background-color: #1a1a1a;
+}

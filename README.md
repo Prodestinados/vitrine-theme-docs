@@ -1,32 +1,18 @@
-# Installing Atelier
+# Vitrine Theme Documentation
 
-Atelier is a fashion-forward Shopify theme designed for brands that lead with visual storytelling. With three distinct presets, Atelier adapts to any aesthetic — from warm minimalism to bold editorial to refined elegance.
+Official documentation for the [Vitrine Shopify theme](https://github.com/Prodestinados/atelier-theme) by Adaptive Intel.
 
-## Three Presets, One Theme
+Built with [Docusaurus](https://docusaurus.io/) and deployed to GitHub Pages.
 
-| Preset | Typography | Aesthetic | Page Width |
-|--------|-----------|-----------|------------|
-| **Atelier** | DM Sans (700/400) | Warm neutral minimalism | 1200px |
-| **Runway** | Bebas Neue + Work Sans | Bold black + red editorial | 1400px |
-| **Salon** | Cormorant + Lato | Cream + brown elegance | 1000px |
+## Development
 
-Each preset includes 5 coordinated color schemes, pre-configured typography, and layout defaults that work together out of the box.
+```bash
+npm install
+npm start      # Local dev server at localhost:3000
+npm run build  # Production build
+```
 
-## Installation
+## Deployment
 
-1. In your Shopify admin, go to **Online Store → Themes**
-2. Click **Add theme** in the top right
-3. Select **Upload ZIP file**
-4. Choose your `atelier.zip` file and click **Upload**
-5. Once uploaded, click **Customize** to open the Theme Editor
-
-## Getting Started
-
-- [Choosing a Preset](getting-started/choosing-a-preset.md) — Pick the visual direction for your brand
-- [Theme Editor Overview](getting-started/theme-editor-overview.md) — Learn the Shopify customization interface
-- [Understanding Color Schemes](getting-started/understanding-color-schemes.md) — How Atelier's color system works
-- [Recommended First Steps](getting-started/recommended-first-steps.md) — A quick setup checklist
-
-## Need Help?
-
-Visit our [Support page](support/contact-and-support.md) or browse the [FAQs](faqs/switching-presets.md).
+Pushes to `main` automatically deploy via GitHub Actions to:
+https://prodestinados.github.io/atelier-theme-docs/
