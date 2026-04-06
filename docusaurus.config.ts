@@ -12,10 +12,10 @@ const config: Config = {
   },
 
   url: 'https://prodestinados.github.io',
-  baseUrl: '/atelier-theme-docs/',
+  baseUrl: '/vitrine-theme-docs/',
 
   organizationName: 'Prodestinados',
-  projectName: 'atelier-theme-docs',
+  projectName: 'vitrine-theme-docs',
 
   onBrokenLinks: 'throw',
 
